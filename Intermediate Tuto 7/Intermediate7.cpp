@@ -115,6 +115,7 @@ void loadLabels(std::string fileName_, std::vector<std::string> & labels)
 		for (std::string line; std::getline(in, line); )
 		{
 			labels.push_back(line);
+
 		}
 	}
 }
